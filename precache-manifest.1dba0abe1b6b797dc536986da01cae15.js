@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8165652efe70729901fa",
-    "url": "/Pipoun/index/static/css/main.24eed1fa.chunk.css"
+    "revision": "7ae15b5598aeb557ff72",
+    "url": "/Pipoun/index/static/css/main.d3f623b9.chunk.css"
   },
   {
-    "revision": "8165652efe70729901fa",
-    "url": "/Pipoun/index/static/js/main.8165652e.chunk.js"
+    "revision": "7ae15b5598aeb557ff72",
+    "url": "/Pipoun/index/static/js/main.7ae15b55.chunk.js"
   },
   {
     "revision": "d7c98ab70d5c9d904d64",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/Pipoun/index/static/media/pre.72fba571.svg"
   },
   {
-    "revision": "77a47a8dd88218d8f9560b6150673c17",
+    "revision": "2e6cb7bf70c3235a9a1d6db1e7cf95d8",
     "url": "/Pipoun/index/index.html"
   }
 ];

@@ -1,7 +1,7 @@
 {
-  "main.css": "/Pipoun/index/static/css/main.24eed1fa.chunk.css",
-  "main.js": "/Pipoun/index/static/js/main.8165652e.chunk.js",
-  "main.js.map": "/Pipoun/index/static/js/main.8165652e.chunk.js.map",
+  "main.css": "/Pipoun/index/static/css/main.d3f623b9.chunk.css",
+  "main.js": "/Pipoun/index/static/js/main.7ae15b55.chunk.js",
+  "main.js.map": "/Pipoun/index/static/js/main.7ae15b55.chunk.js.map",
   "static/js/1.d7c98ab7.chunk.js": "/Pipoun/index/static/js/1.d7c98ab7.chunk.js",
   "static/js/1.d7c98ab7.chunk.js.map": "/Pipoun/index/static/js/1.d7c98ab7.chunk.js.map",
   "static/css/2.3f00d088.chunk.css": "/Pipoun/index/static/css/2.3f00d088.chunk.css",
@@ -22,9 +22,9 @@
   "static/media/soucoupe.svg": "/Pipoun/index/static/media/soucoupe.bce4569a.svg",
   "static/media/PipounSite1.png": "/Pipoun/index/static/media/PipounSite1.4e47a887.png",
   "static/media/style.css": "/Pipoun/index/static/media/pre.72fba571.svg",
+  "static/css/main.d3f623b9.chunk.css.map": "/Pipoun/index/static/css/main.d3f623b9.chunk.css.map",
   "static/css/2.3f00d088.chunk.css.map": "/Pipoun/index/static/css/2.3f00d088.chunk.css.map",
-  "static/css/main.24eed1fa.chunk.css.map": "/Pipoun/index/static/css/main.24eed1fa.chunk.css.map",
   "index.html": "/Pipoun/index/index.html",
-  "precache-manifest.1d4532325ae376a414595b2086d2b26c.js": "/Pipoun/index/precache-manifest.1d4532325ae376a414595b2086d2b26c.js",
+  "precache-manifest.1dba0abe1b6b797dc536986da01cae15.js": "/Pipoun/index/precache-manifest.1dba0abe1b6b797dc536986da01cae15.js",
   "service-worker.js": "/Pipoun/index/service-worker.js"
 }
