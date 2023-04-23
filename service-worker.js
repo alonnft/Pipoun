@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pipoun/src/index.js/precache-manifest.5aa8ae5d6432b9f93dba29576bea1671.js"
+  "/pipoun/index.js/precache-manifest.061734da105d5fb7ae868738b8dd6f45.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pipoun/src/index.js/index.html", {
+workbox.routing.registerNavigationRoute("/pipoun/index.js/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
