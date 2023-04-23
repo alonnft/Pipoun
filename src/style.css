@@ -279,6 +279,9 @@ html {
   .fork-btn{
     visibility: hidden;
   }
+  /* .navbar-light .navbar-toggler {
+    float: right !important;
+  } */
   .heading-name {
     font-size: 1.5em !important;
     /* padding-left: 45px !important; */
@@ -1000,11 +1003,52 @@ html {
   vertical-align: middle !important;
   text-align: center !important;
 }
-
+.nav-link > span{
+  text-shadow: 1px 1px 2px black;
+}
 .nav-link:hover{
   border-radius: 0.375rem;
   transform: scale(1.1);
   box-shadow: 0 0 15px #fd904b !important;
+}
+.menu-icon{
+  position: relative; 
+  width: 30px;
+  height: 30px; 
+
+  transition: transform 0.5s;
+}
+.menu-icon span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); 
+
+  display: block;
+  width: 22px;
+  height: 2px;
+
+  background-color: #FFF;
+  box-shadow: 1px 1px 2px black;
+  transition: background 0.5s;
+}
+.menu-icon span::before, .menu-icon span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-6px);
+
+  display: block;
+  width: 22px;
+  height: 2px;
+
+  background-color: #FFF;
+  box-shadow: 1px 1px 2px black;
+  transition: transform 0.5s;
+}
+.menu-icon span::after {
+  transform: translateY(6px); 
 }
 .fork-btn-inner:hover {
   transform: scale(1.1);

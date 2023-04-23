@@ -43,10 +43,13 @@ function NavBar() {
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
+          style={{position: 'absolute', right: 0}}
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
           }}
-        >
+        ><div class="menu-icon">
+          <span class="burger"></span>
+          </div>
           <span></span>
           <span></span>
           <span></span>
@@ -55,7 +58,7 @@ function NavBar() {
           <Nav  defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)} style={{ color:"#FFFFFF" }}>
-                <AiOutlineHome style={{ marginBottom: "2px", color: "#FFAA01" }} /> Home 
+                <AiOutlineHome style={{ marginBottom: "2px", color: "#FFAA01" }} /> <span>Home </span>
               </Nav.Link>
             </Nav.Item>
 
@@ -69,7 +72,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px", color: "#FFAA01" }}
                 />
-                Roadmap
+                <span className="ombre">Roadmap</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -78,9 +81,9 @@ function NavBar() {
                 as={Link}
                 to="/collection"
                 onClick={() => updateExpanded(false)}
-                style={{ color:"#FFFFFF" }}
+                style={{ color:"#FFFFFF"}}
               >
-                <CgFileDocument style={{ marginBottom: "2px", color:"#FFAA01" }} /> Collection
+                <CgFileDocument style={{ marginBottom: "2px", color:"#FFAA01" }} /> <span>Collection</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -91,7 +94,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
                 style={{ color:"#FFFFFF" }}
               >
-                <AiOutlineUser style={{ marginBottom: "2px", color: "#FFAA01" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px", color: "#FFAA01" }} /> <span>About</span>
               </Nav.Link>
             </Nav.Item>
 
