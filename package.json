@@ -1,7 +1,8 @@
 {
-  "name": "gsap-app",
+  "name": "pipoun",
   "version": "0.1.0",
-  "homepage": "https://alonnft.github.io/Pipoun_website/index",
+  "homepage": "https://alonnft.github.io/pipoun/index",
+  "email": "alonnftart@gmail.com",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
